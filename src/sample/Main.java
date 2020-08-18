@@ -83,20 +83,7 @@ public class Main extends Application {
         root.getChildren().addAll(new Label("Input:"), input, new Label("Messages:"), messageArea, buttonBox);
         //set minimum size
         root.setMinSize(350,350);
-        /*
-        * Set the padding of the Vbox
-        * set the border-style of the Vbox
-        * set the border-width of the Vbox
-        * set the border-insets of the Vbox
-        * set the border-radius of the Vbox
-        * set the border-colour of the Vbox
-        */
-        root.setStyle("-fx-padding: 10;" +
-                "-fx-border-style: solid inside;" +
-                "-fx-border-width: 2;" +
-                "-fx-border-insets: 5;" +
-                "-fx-border-radius: 5;" +
-                "-fx-border-color: black;");
+        root.setStyle("-fx-padding: 10;");
 
         //create the scene
         Scene scene = new Scene(root);
